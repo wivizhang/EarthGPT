@@ -15,7 +15,7 @@ EarthGPT is a pioneering model designed to seamlessly unify multi-sensor and div
   <img src="images/examples.png">
 </div>
 
-##  :sparkles: MMSM-1M: Multi-sensor remote sensing instruction dataset
+##  :sparkles: MMRS-1M: Multi-sensor remote sensing instruction dataset
 
 <u>___The download link of MMRS-1M is coming soon! 🚀___</u>
 
