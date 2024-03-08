@@ -1,14 +1,11 @@
 # 🌏 EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain
 
-Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822).
+Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822). :smile: 
 
 Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 
-\* Equally contributing first authors
-
-
 ## :mega: News
-- [2024.01.30]: The Dataset, model, and code are coming soon! :rocket:
+- [2024.01.30]: The dataset, model, code and demo are coming soon! :rocket:
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). :fire::fire:
 
 
@@ -18,8 +15,26 @@ EarthGPT is a pioneering model designed to seamlessly unify multi-sensor and div
   <img src="images/examples.png">
 </div>
 
-##  :sparkles: Dataset: MMSM-1M 
-the largest multi-modal multi-sensor RS instruction-following dataset named MMRS-1M is constructed, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
+##  :sparkles: MMSM-1M: Multi-sensor remote sensing instruction dataset
 
-The download link of MMRS-1M is coming soon! 🚀
+<u>___The download link of MMRS-1M is coming soon! 🚀___</u>
+
+MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
+
+
+## :bookmark: Citation
+```bash
+@article{zhang2024earthgpt,
+  title={Earthgpt: A universal multi-modal large language model for multi-sensor image comprehension in remote sensing domain},
+  author={Zhang, Wei and Cai, Miaoxin and Zhang, Tong and Zhuang, Yin and Mao, Xuerui},
+  journal={arXiv preprint arXiv:2401.16822},
+  year={2024} 
+}
+```
+
+## :memo: Acknowledgment
+This paper benefits from [llama](https://github.com/facebookresearch/llama). Thanks for their wonderful work.
+
+## :envelope: Contact
+If you have any questions about EarthGPT, please feel free to contact w.w.zhanger@gmail.com.
 
