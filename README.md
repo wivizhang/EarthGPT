@@ -5,6 +5,7 @@ Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822). :smile:
 Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 
 ## :mega: News
+- [2024.04.29]: We released part data of the MMRS-1M! :fire:
 - The dataset, model, code, and demo are coming soon! :rocket:
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). :fire::fire:
 
@@ -17,9 +18,16 @@ EarthGPT is a pioneering model designed to seamlessly unify multi-sensor and div
 
 ##  :sparkles: MMRS-1M: Multi-sensor remote sensing instruction dataset
 
-<u>___The download link of MMRS-1M is coming soon! 🚀___</u>
+<u>___The entire data of MMRS-1M is coming soon! 🚀___</u>
 
 MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
+
+We release 9000+ image-text pairs in the following link.
+
+Link：https://pan.baidu.com/s/1hN7RXQv5xo5Fyq0nHzUlzg
+
+PWd：haha 
+
 
 
 ## :bookmark: Citation
