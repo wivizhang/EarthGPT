@@ -5,7 +5,7 @@ Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822). :smile:
 Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 
 ## :mega: News
-- [2024.04.29]: We released part data of the MMRS-1M! :fire:
+- [2024.04.29]: We partially released the data of MMRS-1M! :fire:
 - The dataset, model, code, and demo are coming soon! :rocket:
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). :fire::fire:
 
