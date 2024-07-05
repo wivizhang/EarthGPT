@@ -6,9 +6,9 @@ Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 * The authors contributed equally to this work.
   
 ## :mega: News
+- The dataset, model, code, and demo are coming soon! :rocket:
 - [2024.05.25]: EarthGPT has been accepted to IEEE-TGRS 🎉 
 - [2024.04.29]: We partially released the data of MMRS-1M! :fire:
-- The dataset, model, code, and demo are coming soon! :rocket:
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). :fire::fire:
 
 
