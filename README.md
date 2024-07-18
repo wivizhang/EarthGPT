@@ -37,8 +37,9 @@ PWd：haha
 @article{zhang2024earthgpt,
   title={Earthgpt: A universal multi-modal large language model for multi-sensor image comprehension in remote sensing domain},
   author={Zhang, Wei and Cai, Miaoxin and Zhang, Tong and Zhuang, Yin and Mao, Xuerui},
-  journal={arXiv preprint arXiv:2401.16822},
-  year={2024}
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
