@@ -1,4 +1,4 @@
-# 🌏 EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain
+# 🌏 EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain 
 
 Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822). :smile: 
 
@@ -6,29 +6,51 @@ Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 * The authors contributed equally to this work.
   
 ## :mega: News
-- [2024.10.21]: We open source the dataset MMRS-1M! :fire::fire::fire:
+- [2024.10.21]: We open source the dataset MMRS-1M ! :fire::fire::fire:
 - [2024.05.25]: EarthGPT has been accepted to IEEE-TGRS 🎉 
-- [2024.04.29]: We partially released the data of MMRS-1M! 
+- [2024.04.29]: We partially released the data of MMRS-1M ! 
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). 
 
-##  :sparkles: Introduction
-EarthGPT is a pioneering model designed to seamlessly unify multi-sensor and diverse remote sensing intelligent visual interpretation tasks in a unified framework, guided by user language instructions. EarthGPT is versatile at performing visual-language dialogues across optical, SAR, and infrared images. EarthGPT's capabilities extend to a wide range of tasks including scene classification, image description, visual question answering, target description, visual localization, and object detection.
+##  :sparkles: Overview
+EarthGPT is a universal MLLM tailored for the remote sensing domain, effectively establishing a multi-modal mutual learning framework and seamlessly unifying a wide range of RS tasks and multi-sensor imagery interpretation in multi-turn dialogues. Specifically, EarthGPT is capable of various visual reasoning tasks including scene classification, image captioning, region-level captioning, VQA, visual grounding, object detection, etc. Most importantly, EarthGPT is versatile at multi-sensor imagery comprehension across optical, SAR, and infrared images. 
+<div align="center">
+  <img src="images/examples.png">
+</div>
 
 ##  :sparkles: MMRS-1M: Multi-modal Multi-sensor Remote Sensing Instruction Dataset
-
-<u>___The entire data of MMRS-1M is released! 🚀___</u>
-
 MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
 
-We release over 1M image-text pairs in the following link.
+<u>___The entire data of MMRS-1M is released! 🚀___</u>
 
 Link：https://pan.baidu.com/s/1sK9I862tuQfiiFbHBvOOpw?pwd=mycu 
 
 PWd：mycu
 
 ### Datasets Usage guidelines
-
-
+1. Each task provides an image file and a corresponding JSON file.
+2. The detection and visual grounding data involve coordinate transformation. Taking the horizontal bounding box as an example, assume the horizontal bounding box for the original detection data  is [x0, y0, w, h], and the dimensions of the image are width and height. The coordinate transformation is performed as follows:
+   
+   First, performing padding：
+```Shell
+     if height > width:
+        pad_x0 = int((height - width) / 2)
+        pad_y0 = 0
+        width = height
+    else:
+        pad_x0 = 0
+        pad_y0 = int((width - height) / 2)
+        height = width
+```
+   Then, performing normalization：
+```Shell
+        x0 = x0 + pad_x0
+        y0 = y0 + pad_y0
+        sx0 = x0 / width
+        sy0 = y0 / height
+        sx1 = (x0 + w) / width
+        sy1 = (y0 + h) / height
+```
+Finally, [sx0, sy0, sx1, sy1] is the format of the detection boxes used for the detected part of the data in MMRS-1M.
 
 
 
