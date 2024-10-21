@@ -24,7 +24,7 @@ MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset
 
 Link：https://pan.baidu.com/s/1sK9I862tuQfiiFbHBvOOpw?pwd=mycu 
 
-PWd：mycu
+PWD：mycu
 
 ### Datasets Usage guidelines
 1. Each task provides an image file and a corresponding JSON file.
