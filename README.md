@@ -12,10 +12,7 @@ Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). 
 
 ##  :sparkles: Overview
-EarthGPT is a universal MLLM tailored for the remote sensing domain, effectively establishing a multi-modal mutual learning framework and seamlessly unifying a wide range of RS tasks and multi-sensor imagery interpretation in multi-turn dialogues. Specifically, EarthGPT is capable of various visual reasoning tasks including scene classification, image captioning, region-level captioning, VQA, visual grounding, object detection, etc. Most importantly, EarthGPT is versatile at multi-sensor imagery comprehension across optical, SAR, and infrared images. 
-<div align="center">
-  <img src="images/examples.png">
-</div>
+EarthGPT is a universal MLLM tailored for the remote sensing (RS) domain, effectively establishing a multi-modal mutual learning framework and seamlessly unifying a wide range of RS tasks and multi-sensor imagery interpretation in multi-turn dialogues. Specifically, EarthGPT is capable of various visual reasoning tasks including scene classification, image captioning, region captioning, VQA, visual grounding, object detection, etc. Most importantly, EarthGPT is versatile at multi-sensor imagery comprehension across optical, SAR, and infrared images. 
 
 ##  :sparkles: MMRS-1M: Multi-modal Multi-sensor Remote Sensing Instruction Dataset
 MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
