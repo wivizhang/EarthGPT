@@ -1,18 +1,18 @@
 # 🌏 EarthGPT: A Universal Multi-modal Large Language Model for Multi-sensor Image Comprehension in Remote Sensing Domain 
 
-Official repository for [EarthGPT](https://arxiv.org/abs/2401.16822). :smile: 
+Official repository for [EarthGPT](https://ieeexplore.ieee.org/document/10547418). :smile: 
 
 Authors: Wei Zhang*, Miaoxin Cai*, Tong Zhang, Yin Zhuang, and Xuerui Mao
 * The authors contributed equally to this work.
   
 ## :mega: News
 - [2024.10.21]: We open source the dataset MMRS-1M ! :fire::fire::fire:
-- [2024.05.25]: EarthGPT has been accepted to IEEE-TGRS 🎉 
+- [2024.05.25]: EarthGPT has been accepted to [IEEE-TGRS](https://ieeexplore.ieee.org/document/10547418) 🎉  
 - [2024.04.29]: We partially released the data of MMRS-1M ! 
 * [2024.01.30]: The paper for EarthGPT is released [arxiv](https://arxiv.org/abs/2401.16822). 
 
 ##  :sparkles: Overview
-EarthGPT is a universal MLLM tailored for the remote sensing (RS) domain, effectively establishing a multi-modal mutual learning framework and seamlessly unifying a wide range of RS tasks and multi-sensor imagery interpretation in multi-turn dialogues. Specifically, EarthGPT is capable of various visual reasoning tasks including scene classification, image captioning, region captioning, VQA, visual grounding, object detection, etc. Most importantly, EarthGPT is versatile at multi-sensor imagery comprehension across optical, SAR, and infrared images. 
+EarthGPT is a universal multi-modal large language model (MLLM) tailored for the remote sensing (RS) domain. Notably, EarthGPT establishes an effective visual-language cross-modal mutual learning framework, and seamlessly unifies a wide range of RS visual tasks and multi-sensor imagery interpretation in multi-turn dialogues. Specifically, EarthGPT is capable of various visual reasoning tasks, including scene classification, image captioning, region captioning, VQA, visual grounding, object detection, etc. Most importantly, EarthGPT is versatile in understanding multi-sensor imagery across optical, synthetic aperture radar (SAR), and infrared images. 
 
 ##  :sparkles: MMRS-1M: Multi-modal Multi-sensor Remote Sensing Instruction Dataset
 MMRS-1M is the largest multi-modal multi-sensor RS instruction-following dataset, consisting of over 1M image-text pairs that include optical, SAR, and infrared RS images. 
